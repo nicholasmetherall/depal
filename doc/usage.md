@@ -1,5 +1,10 @@
 ## How To Use DEPAL within Digital Earth Pacific MS Planetary Computer
 
+### Opening the template.ipynb to begin working in the DEP environment
+1. Login to https://dep-staging.westeurope.cloudapp.azure.com/ with your provisioned access.
+2. Within the depal folder right click on the notebook file 'template.ipynb' and click 'duplicate'
+3. You can Now work within this new .ipynb file.
+
 ### Initial Setup *(only needs to be done once)*
 
 1. Login to https://dep-staging.westeurope.cloudapp.azure.com/ with your provisioned access.
@@ -19,7 +24,7 @@
    warnings.filterwarnings('ignore')
    dep.init()
    ```
-7. Ensure that your notebook ends with `dep.cleanup()` on it's last cell to ensure all resources are relesed.
+7. Ensure that your notebook ends with `dep.cleanup()` on it's last cell to ensure all resources are released.
 7. #### Alternatively, right click on *template.ipynb* and select duplicate to start working on a new notebook with the defaults above already in place. ####  
 8. Refer to https://github.com/digitalearthpacific/depal/blob/main/doc/depal.pdf for DEPAL API and Functions.
 
